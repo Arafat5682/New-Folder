@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-   students := [3]string{"Ashiq", "Sabbir", "Shimul"}
+   students := [...]string{"Ashiq", "Sabbir", "Shimul", "Shakil", "Saddam", "Mostafizur_Rahman"}
  fmt.Println(students, len(students))
 }
